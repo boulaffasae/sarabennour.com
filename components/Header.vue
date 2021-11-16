@@ -35,6 +35,8 @@
   height: 25%;
   left: 0;
   position: absolute;
+  transform-origin: left bottom;
+  transform: rotate(-2deg);
   width: 100%;
   z-index: -1;
 }
