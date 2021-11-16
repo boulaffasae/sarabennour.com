@@ -3,10 +3,8 @@
     <h1>Blog</h1>
     <ul v-for="post in posts" :key="post.slug">
       <li>
-        <h2>
-          <NuxtLink :to="{ name: 'blog-slug', params: { slug: post.slug } }">{{
-            post.title
-          }}</NuxtLink>
+        <h2 class="post__heading">
+          <NuxtLink :to="{ name: 'blog-slug', params: { slug: post.slug } }">{{ post.title }}</NuxtLink>
         </h2>
       </li>
     </ul>
@@ -54,3 +52,11 @@ export default {
   },
 }
 </script>
+
+<style>
+.post__heading a {
+  color: #000;
+  font-weight: 400;
+  text-decoration: none !important;
+}
+</style>

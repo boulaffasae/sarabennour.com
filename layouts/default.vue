@@ -1,15 +1,17 @@
 <template>
-  <div>
+  <div class="main-site">
     <Header />
-    <main class="main-content">
+    <main class="container">
       <Nuxt />
     </main>
+    <Footer />
   </div>
 </template>
+
 <style>
-.main-content {
-  margin: 0 auto;
-  max-width: 1016px;
-  padding: 0 32px;
+.main-site {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
 }
 </style>

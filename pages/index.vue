@@ -1,5 +1,8 @@
 <template>
-  <section></section>
+  <section>
+    <h1>Bonjour ! Je suis Sarah</h1>
+    <div>Développeur Front-End</div>
+  </section>
 </template>
 
 <script>
