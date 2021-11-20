@@ -23,23 +23,27 @@ export default {
           name: 'description',
           content: this.post.description,
         },
+        // Twitter Card
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
         // Open Graph
-        { hid: 'og:title', property: 'og:title', content: this.post.title },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: `${this.post.title} - Sara Bennour`,
+        },
         {
           hid: 'og:description',
           property: 'og:description',
           content: this.post.description,
         },
-        // Twitter Card
         {
-          hid: 'twitter:title',
-          name: 'twitter:title',
-          content: this.post.title,
-        },
-        {
-          hid: 'twitter:description',
-          name: 'twitter:description',
-          content: this.post.description,
+          hid: 'og:image',
+          property: 'og:image',
+          content: 'https://sarabennour.com/assets/images/blog/og-image.jpg',
         },
       ],
     }

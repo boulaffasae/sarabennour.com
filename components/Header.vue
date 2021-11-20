@@ -31,7 +31,7 @@
 .main-nav__link.nuxt-link-active::after {
   background-image: linear-gradient(to top, #ffc823 30%, transparent 45%);
   bottom: 0;
-  content: "";
+  content: '';
   height: 25%;
   left: 0;
   position: absolute;

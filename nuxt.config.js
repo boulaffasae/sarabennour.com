@@ -1,3 +1,5 @@
+import getRoutes from "./utils/getRoutes";
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -49,10 +51,18 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/sitemap',
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
+
+  sitemap: {
+    hostname: 'https://sarabennour.com/',
+    routes() {
+      return getRoutes();
+    },
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

@@ -4,7 +4,9 @@
     <ul v-for="post in posts" :key="post.slug">
       <li>
         <h2 class="post__heading">
-          <NuxtLink :to="{ name: 'blog-slug', params: { slug: post.slug } }">{{ post.title }}</NuxtLink>
+          <NuxtLink :to="{ name: 'blog-slug', params: { slug: post.slug } }">{{
+            post.title
+          }}</NuxtLink>
         </h2>
       </li>
     </ul>
@@ -29,23 +31,27 @@ export default {
           name: 'description',
           content: 'Blog',
         },
+        // Twitter Card
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
         // Open Graph
-        { hid: 'og:title', property: 'og:title', content: 'Blog' },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Blog - Sara Bennour',
+        },
         {
           hid: 'og:description',
           property: 'og:description',
           content: 'Blog',
         },
-        // Twitter Card
         {
-          hid: 'twitter:title',
-          name: 'twitter:title',
-          content: 'Blog',
-        },
-        {
-          hid: 'twitter:description',
-          name: 'twitter:description',
-          content: 'Blog',
+          hid: 'og:image',
+          property: 'og:image',
+          content: 'https://sarabennour.com/assets/images/blog/og-image.jpg',
         },
       ],
     }
