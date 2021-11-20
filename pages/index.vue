@@ -36,7 +36,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: 'https://sarabennour.com/assets/images/og-image.jpg',
+          content: 'https://sarabennour.com/images/og-image.jpg',
         },
       ],
     }
