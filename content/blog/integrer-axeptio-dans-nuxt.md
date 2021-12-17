@@ -12,7 +12,7 @@ Pourtant, vous risquez 10 M€ d'amende en cas de non-respect du Règlement Gén
   - les personnes doivent consentir au dépôt de traceurs par un acte positif clair (comme le fait de cliquer sur « j’accepte » dans une bannière cookie). Si elles ne le font pas, aucun traceur non essentiel au fonctionnement du service ne pourra être déposé sur leur appareil.
 - Les utilisateurs devront être en mesure de retirer leur consentement, facilement, et à tout moment.
 - Refuser les traceurs doit être aussi aisé que de les accepter.
-- ​Concernant l’information des personnes :
+- Concernant l’information des personnes :
   - elles doivent clairement être informées des finalités des traceurs avant de consentir, ainsi que des conséquences qui s’attachent à une acceptation ou un refus de traceurs ;
   - elles doivent également être informées de l’identité de tous les acteurs utilisant des traceurs soumis au consentement.
 - Les organismes exploitant des traceurs doivent être en mesure de fournir, à tout moment, la preuve du recueil valable du consentement libre, éclairé, spécifique et univoque de l’utilisateur.
