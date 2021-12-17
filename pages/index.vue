@@ -14,7 +14,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'Développeur Front-End',
+          content: 'Bonjour ! Je suis Sarah. Développeur Front-End',
         },
         // Twitter Card
         {
@@ -31,7 +31,7 @@ export default {
         {
           hid: 'og:description',
           property: 'og:description',
-          content: 'Développeur Front-End',
+          content: 'Bonjour ! Je suis Sarah. Développeur Front-End',
         },
         {
           hid: 'og:image',
