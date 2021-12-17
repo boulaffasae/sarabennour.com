@@ -43,7 +43,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: 'https://sarabennour.com/images/blog/og-image.jpg',
+          content: `https://sarabennour.com/images/blog/${this.post.slug}/og-image.jpeg`,
         },
       ],
     }

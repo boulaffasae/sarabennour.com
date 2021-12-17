@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screenshot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f5fbf8;
+      margin: 0;
+    }
+
+    figure {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      height: 628px;
+      margin: 0;
+    }
+
+    blockquote {
+      color: #3b3b3a;
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      grid-area: 2 / 2 / 4 / 6;
+      text-align: center;
+    }
+
+    figcaption {
+      color: #8d8d8d;
+      font-family: 'Raleway', sans-serif;
+      font-size: 23px;
+      grid-area: 5 / 2 / 5 / 6;
+      letter-spacing: 10px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    img {
+      grid-area: 1 / 7 / 6 / 13;
+      height: auto;
+      object-fit: cover;
+      width: 100%
+    }
+  </style>
+</head>
+<body>
+  <figure>
+    <blockquote id="blockquote"></blockquote>
+    <figcaption>Sara Bennour</figcaption>
+    <img src="thought-catalog-UK78i6vK3sc-unsplash.jpg" alt="" />
+  </figure>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const text = urlParams.get('text');
+    document.getElementById("blockquote").textContent = text;
+  </script>
+</body>
+</html>
