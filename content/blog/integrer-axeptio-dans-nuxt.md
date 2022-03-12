@@ -19,7 +19,7 @@ Pourtant, toutes les sociétés l’utilisant risquent 10 M€ d'amende en cas d
 
 Découvrir [Axeptio][axeptio], un outil complet et facile qui vous propose une solution innovante, facile à utiliser, user-friendly ! 100% conforme avec le GDPR et les guidelines de CNIL.
 
-Allez sur [Axeptio](http://admin.axeptio.eu/) pour créer un compte, créer et configurer votre nouveau projet, copie votre identifiant du projet. Ensuite, ajouter les lignes suivantes dans `nuxt.config.js` :
+Allez sur [Axeptio](https://admin.axeptio.eu/) pour créer un compte, créer et configurer votre nouveau projet, copie votre identifiant du projet. Ensuite, ajouter les lignes suivantes dans `nuxt.config.js` :
 
 ```js
 export default {
