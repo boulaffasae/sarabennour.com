@@ -6,6 +6,7 @@
 
 body {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-size: 20px;
   margin: 0;
 }
 
@@ -13,5 +14,5 @@ body {
   margin: 0 auto;
   max-width: 64rem;
   padding: 0 1rem;
-  width: 100%;
+  width: 100vw;
 }
