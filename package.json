@@ -23,7 +23,7 @@
     "chrome-aws-lambda": "^10.1.0",
     "core-js": "^3.22.0",
     "nuxt": "^2.15.7",
-    "puppeteer-core": "^13.5.2"
+    "puppeteer-core": "^13.7.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.17.0",
