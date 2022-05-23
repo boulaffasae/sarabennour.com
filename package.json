@@ -21,7 +21,7 @@
     "@nuxt/content": "^1.15.1",
     "@nuxtjs/sitemap": "^2.4.0",
     "chrome-aws-lambda": "^10.1.0",
-    "core-js": "^3.22.0",
+    "core-js": "^3.22.6",
     "nuxt": "^2.15.7",
     "puppeteer-core": "^13.5.2"
   },
