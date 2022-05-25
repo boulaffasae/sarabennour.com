@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@netlify/functions": "^1.0.0",
-    "@nuxt/content": "^1.15.1",
+    "@nuxt/content": "^2.0.0",
     "@nuxtjs/sitemap": "^2.4.0",
     "chrome-aws-lambda": "^10.1.0",
     "core-js": "^3.22.0",
