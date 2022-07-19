@@ -26,7 +26,7 @@
     "puppeteer-core": "^14.2.1"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.18.2",
+    "@babel/eslint-parser": "^7.18.9",
     "@commitlint/cli": "^17.0.2",
     "@commitlint/config-conventional": "^17.0.2",
     "@nuxtjs/eslint-config": "^10.0.0",
